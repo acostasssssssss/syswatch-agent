@@ -1,0 +1,7 @@
+sw_I5PFacjsKplwizCd0mNMuxzv2zMHNhQBvMnpmdzRphc
+
+cd syswatch-agent
+
+set SYSWATCH_API_KEY=sw_I5PFacjsKplwizCd0mNMuxzv2zMHNhQBvMnpmdzRphc
+set SYSWATCH_BACKEND_URL=ws://127.0.0.1:8000/ws/agent
+python agent.py
